@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,OAAO,AAAC,CACJ,UAAU,CAHD,GAAG,CAAC,IAAI,CAAC,IAAG,CAQxB,AAND,AAEI,OAFG,AAEF,MAAM,AAAC,CACJ,UAAU,CANA,OAAO,CAOjB,UAAU,CANL,GAAG,CAAC,IAAI,CAAC,IAAG,CAOpB",
+    "sources": [
+        "footer_green.scss"
+    ],
+    "names": [],
+    "file": "footer_green.css"
+}

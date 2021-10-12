@@ -1,0 +1,247 @@
+$primary-color: #c9184a;
+$secondary-color: #ff4d6d;
+$tertiary-color: black;
+$transition: all ease .6s;
+
+.main {
+    &__wrapper {
+        &__title {
+            transition: $transition;
+            &.pink {
+                color: $tertiary-color;
+                transition: $transition;
+            }
+        }
+
+        &__paragraph {
+            transition: $transition;
+            &.pink {
+                color: $tertiary-color;
+                transition: $transition;
+            }
+        }
+
+        &__card {
+            &-red {
+                &.pink {
+                    background: $secondary-color;
+                    border: 2px solid $secondary-color;
+                    color: $tertiary-color;
+
+                    &:hover {
+                        background: $primary-color;
+                        border: 2px solid $secondary-color;
+                        color: $tertiary-color;
+                    }
+                }
+
+                &__title {
+                }
+
+                &__paragraph {
+                }
+
+                &__btn {
+                    &:hover {
+                    }
+
+                    &.pink {
+                        border: 1px solid $secondary-color;                        
+                        color: $tertiary-color;
+                        background: $primary-color;
+                        opacity: 0;
+
+                        &:hover {
+                            color: $tertiary-color;
+                            background: $secondary-color;
+                        }
+                    }
+                }
+            }
+
+            &-blue {
+                &.pink {
+                    background: $secondary-color;
+                    border: 2px solid $secondary-color;
+                    color: $tertiary-color;
+
+                    &:hover {
+                        background: $primary-color;
+                        border: 2px solid $secondary-color;
+                        color: $tertiary-color;
+                    }
+                }
+
+                &__title {
+                }
+
+                &__paragraph {
+                }
+
+                &__btn {
+                    &:hover {
+                    }
+
+                    &.pink {
+                        border: 1px solid $secondary-color;                        
+                        color: $tertiary-color;
+                        background: $primary-color;
+                        opacity: 0;
+
+                        &:hover {
+                            color: $tertiary-color;
+                            background: $secondary-color;
+                        }
+                    }
+                }
+            }
+
+            &-black {
+                &.pink {
+                    background: $secondary-color;
+                    border: 2px solid $secondary-color;
+                    color: $tertiary-color;
+
+                    &:hover {
+                        background: $primary-color;
+                        border: 2px solid $secondary-color;
+                        color: $tertiary-color;
+                    }
+                }
+
+                &__title {
+                }
+
+                &__paragraph {
+                }
+
+                &__btn {
+                    &:hover {
+                    }
+
+                    &.pink {
+                        border: 1px solid $secondary-color;                        
+                        color: $tertiary-color;
+                        background: $primary-color;
+                        opacity: 0;
+
+                        &:hover {
+                            color: $tertiary-color;
+                            background: $secondary-color;
+                        }
+                    }
+                }
+            }
+
+            &-yellow {
+                &.pink {
+                    background: $secondary-color;
+                    border: 2px solid $secondary-color;
+                    color: $tertiary-color;
+
+                    &:hover {
+                        background: $primary-color;
+                        border: 2px solid $secondary-color;
+                        color: $tertiary-color;
+                    }
+                }
+
+                &__title {
+                }
+
+                &__paragraph {
+                }
+
+                &__btn {
+                    &:hover {
+                    }
+
+                    &.pink {
+                        border: 1px solid $secondary-color;                        
+                        color: $tertiary-color;
+                        background: $primary-color;
+                        opacity: 0;
+
+                        &:hover {
+                            color: $tertiary-color;
+                            background: $secondary-color;
+                        }
+                    }
+                }
+            }
+
+            &-green {
+                &.pink {
+                    background: $secondary-color;
+                    border: 2px solid $secondary-color;
+                    color: $tertiary-color;
+
+                    &:hover {
+                        background: $primary-color;
+                        border: 2px solid $secondary-color;
+                        color: $tertiary-color;
+                    }
+                }
+
+                &__title {
+                }
+
+                &__paragraph {
+                }
+
+                &__btn {
+                    &:hover {
+                    }
+
+                    &.pink {
+                        border: 1px solid $secondary-color;                        
+                        color: $tertiary-color;
+                        background: $primary-color;
+                        opacity: 0;
+
+                        &:hover {
+                            color: $tertiary-color;
+                            background: $secondary-color;
+                        }
+                    }
+                }
+            }
+
+            &-pink {
+                &.pink {
+                    background: $secondary-color;
+                    border: 2px solid $secondary-color;
+                    color: $tertiary-color;
+
+                    &:hover {
+                        background: $primary-color;
+                        border: 2px solid $secondary-color;
+                        color: $tertiary-color;
+                    }
+                }
+
+                &__title {
+                }
+
+                &__paragraph {
+                }
+
+                &__btn {
+                    &:hover {
+                    }
+
+                    &.pink {
+                        border: 1px solid $secondary-color;                        
+                        color: $tertiary-color;
+                        background: $primary-color;
+
+                        &:hover {
+                            color: $tertiary-color;
+                            background: $secondary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

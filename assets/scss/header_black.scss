@@ -1,0 +1,50 @@
+$primary-color: #212529;
+$secondary-color: #495057;
+$tertiary-color: white;
+$img: url(../img/black.jpg);
+$transition: all ease .6s;
+
+.header {
+    transition: $transition;
+
+    &.black {
+        background-image: $img;
+        transition: $transition;
+    }
+
+    &__wrapper {
+        &__introduction {
+            &__title {
+                transition: $transition;
+
+                &.black {
+                    color: $tertiary-color;
+                    transition: $transition;
+                }
+            }
+
+            &__paragraph {
+                transition: $transition;
+
+                &.black {
+                    color: $tertiary-color;
+                    transition: $transition;
+                }
+            }
+
+            &__btn {
+                &:hover {
+                }
+
+                &.black {
+                    background: $primary-color;
+                    color: $tertiary-color;
+
+                    &:hover {
+                        background: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+$primary-color: #c9184a;
+$secondary-color: #ff4d6d;
+$tertiary-color: black;
+$img: url(../img/pink.jpg);
+$transition: all ease .6s;
+
+.header {
+    transition: $transition;
+
+    &.pink {
+        background-image: $img;
+        transition: $transition;
+    }
+
+    &__wrapper {
+        &__introduction {
+            &__title {
+                transition: $transition;
+
+                &.pink {
+                    color: $tertiary-color;
+                    transition: $transition;
+                }
+            }
+
+            &__paragraph {
+                transition: $transition;
+
+                &.pink {
+                    color: $tertiary-color;
+                    transition: $transition;
+                }
+            }
+
+            &__btn {
+                &:hover {
+                }
+
+                &.pink {
+                    background: $primary-color;
+                    color: $tertiary-color;
+
+                    &:hover {
+                        background: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+}

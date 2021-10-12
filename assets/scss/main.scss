@@ -1,0 +1,342 @@
+$primary-color: white;
+$secondary-color: #dee2e6;
+$tertiary-color: #acaeb1;
+$transition: all ease 0.6s;
+
+flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+btn {
+    padding: 10px;
+    width: 60%;
+    border-radius: 30px;
+    outline: none;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+cards {
+    text-align: center;
+    width: calc(24% - 20px);
+    border-radius: 15px;
+    margin: 2px;
+}
+
+.main {
+    @extend flex;
+    padding: 40px 0;
+
+    &__wrapper {
+        @extend flex;
+
+        &__title {
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+        }
+
+        &__paragraph {
+            margin-bottom: 35px;
+            font-size: 1.2rem;
+        }
+
+        &__card {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 84%;
+
+            &-red {
+                padding: 30px 20px;
+                @extend cards;
+                color: $primary-color;
+                background: $secondary-color;
+                border: 2px solid $secondary-color;
+                transition: $transition;
+
+                &:hover {
+                    background: $primary-color;
+                    border: 2px solid $secondary-color;
+                    color: $secondary-color;
+                    transition: $transition;
+                }
+
+                &__title {
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                }
+
+                &__paragraph {
+                    margin-top: 20px;
+                    margin-bottom: 50px;
+                }
+
+                &__btn {
+                    @extend btn;
+                    color: $primary-color;
+                    background: $secondary-color;
+                    border: 1px solid $tertiary-color;
+                    transition: $transition;
+
+                    &:hover {
+                        background: $primary-color;
+                        color: $secondary-color;
+                        transition: $transition;
+                    }
+                }
+            }
+
+            &-blue {
+                padding: 22px 20px;
+                @extend cards;
+                color: $primary-color;
+                background: $secondary-color;
+                border: 2px solid $secondary-color;
+                transition: $transition;
+
+                &:hover {
+                    background: $primary-color;
+                    color: $secondary-color;
+                    border: 2px solid $secondary-color;
+                    transition: $transition;
+                }
+
+                &__title {
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                }
+
+                &__paragraph {
+                    margin-top: 20px;
+                    margin-bottom: 50px;
+                }
+
+                &__btn {
+                    @extend btn;
+                    color: $primary-color;
+                    background: $secondary-color;
+                    border: 1px solid $tertiary-color;
+                    transition: $transition;
+
+                    &:hover {
+                        background: $primary-color;
+                        color: $secondary-color;
+                        transition: $transition;
+                    }
+                }
+            }
+
+            &-black {
+                padding: 30px 20px;
+                @extend cards;
+                color: $primary-color;
+                background: $secondary-color;
+                border: 2px solid $secondary-color;
+                transition: $transition;
+
+                &:hover {
+                    background: $primary-color;
+                    color: $secondary-color;
+                    border: 2px solid $secondary-color;
+                    transition: $transition;
+                }
+
+                &__title {
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                }
+
+                &__paragraph {
+                    margin-top: 20px;
+                    margin-bottom: 50px;
+                }
+
+                &__btn {
+                    @extend btn;
+                    color: $primary-color;
+                    background: $secondary-color;
+                    border: 1px solid $tertiary-color;
+                    transition: $transition;
+
+                    &:hover {
+                        background: $primary-color;
+                        color: $secondary-color;
+                        transition: $transition;
+                    }
+                }
+            }
+
+            &-yellow {
+                padding: 30px 20px;
+                @extend cards;
+                color: $primary-color;
+                background: $secondary-color;
+                border: 2px solid $secondary-color;
+                transition: $transition;
+
+                &:hover {
+                    background: $primary-color;
+                    color: $secondary-color;
+                    border: 2px solid $secondary-color;
+                    transition: $transition;
+                }
+
+                &__title {
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                }
+
+                &__paragraph {
+                    margin-top: 20px;
+                    margin-bottom: 50px;
+                }
+
+                &__btn {
+                    @extend btn;
+                    color: $primary-color;
+                    background: $secondary-color;
+                    border: 1px solid $tertiary-color;
+                    transition: $transition;
+
+                    &:hover {
+                        background: $primary-color;
+                        color: $secondary-color;
+                        transition: $transition;
+                    }
+                }
+            }
+
+            &-green {
+                padding: 30px 20px;
+                @extend cards;
+                color: $primary-color;
+                background: $secondary-color;
+                border: 2px solid $secondary-color;
+                transition: $transition;
+
+                &:hover {
+                    background: $primary-color;
+                    color: $secondary-color;
+                    border: 2px solid $secondary-color;
+                    transition: $transition;
+                }
+
+                &__title {
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                }
+
+                &__paragraph {
+                    margin-top: 20px;
+                    margin-bottom: 50px;
+                }
+
+                &__btn {
+                    @extend btn;
+                    color: $primary-color;
+                    background: $secondary-color;
+                    border: 1px solid $tertiary-color;
+                    transition: $transition;
+
+                    &:hover {
+                        background: $primary-color;
+                        color: $secondary-color;
+                        transition: $transition;
+                    }
+                }
+            }
+
+            &-pink {
+                padding: 30px 20px;
+                @extend cards;
+                color: $primary-color;
+                background: $secondary-color;
+                border: 2px solid $secondary-color;
+                transition: $transition;
+
+                &:hover {
+                    background: $primary-color;
+                    color: $secondary-color;
+                    border: 2px solid $secondary-color;
+                    transition: $transition;
+                }
+
+                &__title {
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                }
+
+                &__paragraph {
+                    margin-top: 20px;
+                    margin-bottom: 50px;
+                }
+
+                &__btn {
+                    @extend btn;
+                    color: $primary-color;
+                    background: $secondary-color;
+                    border: 1px solid $tertiary-color;
+                    transition: $transition;
+
+                    &:hover {
+                        background: $primary-color;
+                        color: $secondary-color;
+                        transition: $transition;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    cardsResponsive {
+        text-align: center;
+        width: calc(100% - 20px);
+        border-radius: 15px;
+        margin: 2px;
+    }
+
+    .main {
+        &__wrapper {
+            &__card {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                flex-wrap: wrap;
+                align-content: center;
+                align-items: center;
+                width: 80%;
+
+                &-red {
+                    @extend cardsResponsive;
+                }
+
+                &-blue {
+                    @extend cardsResponsive;
+                }
+
+                &-black{
+                    @extend cardsResponsive;
+                }
+
+                &-yellow {
+                    @extend cardsResponsive;
+                }
+
+                &-green {
+                    @extend cardsResponsive;
+                }
+
+                &-pink {
+                    @extend cardsResponsive;
+                }
+            }
+        }
+    }
+}

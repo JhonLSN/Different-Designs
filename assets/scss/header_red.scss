@@ -1,0 +1,50 @@
+$primary-color: #c00021;
+$secondary-color: #800016;
+$tertiary-color: white;
+$img: url(../img/red.png);
+$transition: all ease .6s;
+
+.header {
+    transition: $transition;
+
+    &.red {
+        background-image: $img;
+        transition: $transition;
+    }
+
+    &__wrapper {
+        &__introduction {
+            &__title {
+                transition: $transition;
+
+                &.red {
+                    color: $tertiary-color;
+                    transition: $transition;
+                }
+            }
+
+            &__paragraph {
+                transition: $transition;
+
+                &.red {
+                    color: $tertiary-color;
+                    transition: $transition;
+                }
+            }
+
+            &__btn {
+                &:hover {
+                }
+
+                &.red {
+                    background: $primary-color;
+                    color: $tertiary-color;
+
+                    &:hover {
+                        background: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+}

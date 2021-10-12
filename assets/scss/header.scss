@@ -1,0 +1,76 @@
+$primary-color: white;
+$secondary-color: #ccc7c7;
+$img: url(../img/white.jpg);
+$transition: all ease .6s;
+
+flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header {
+    @extend flex;
+    height: 100vh;
+    background-image: $img;
+    background-attachment: fixed;
+
+    &__wrapper {
+        @extend flex;
+        &__introduction {
+            @extend flex;
+            &__title {
+                text-align: center;
+                font-size: 2rem;
+            }
+
+            &__paragraph {
+                text-align: center;
+                font-size: 1.3rem;
+                width: 40%;
+                margin: revert;
+            }
+
+            &__btn {
+                width: 10%;
+                font-size: 1rem;
+                padding: 10px;
+                background: $primary-color;
+                border: none;
+                border-radius: 30px;
+                cursor: pointer;
+                font-family: system-ui;
+                color: black;
+                text-decoration: none;
+                text-align: center;
+                transition: $transition;
+
+                &:hover {
+                    background: $secondary-color;
+                    transition: $transition;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px){
+    .header {    
+        &__wrapper {
+            &__introduction {
+                &__title {
+                }
+    
+                &__paragraph {
+                    width: 80%;
+                }
+    
+                &__btn {
+                    width: 35%;
+                }
+            }
+        }
+    }
+}

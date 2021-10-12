@@ -1,0 +1,50 @@
+$primary-color: #03045e;
+$secondary-color: #023e8a;
+$tertiary-color: white;
+$img: url(../img/blue.jpg);
+$transition: all ease .6s;
+
+.header {
+    transition: $transition;
+
+    &.blue {
+        background-image: $img;
+        transition: $transition;
+    }
+
+    &__wrapper {
+        &__introduction {
+            &__title {
+                transition: $transition;
+
+                &.blue {
+                    color: $tertiary-color;
+                    transition: $transition;
+                }
+            }
+
+            &__paragraph {
+                transition: $transition;
+
+                &.blue {
+                    color: $tertiary-color;
+                    transition: $transition;
+                }
+            }
+
+            &__btn {
+                &:hover {
+                }
+
+                &.blue {
+                    background: $primary-color;
+                    color: $tertiary-color;
+
+                    &:hover {
+                        background: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+$secondary-color: #dbb42c;
+$tertiary-color: black;
+$transition: all ease .6s;
+
+.footer {
+    transition: $transition;
+    &.yellow {
+        transition: $transition;
+        background: $secondary-color;
+        color: $tertiary-color;
+    }
+}
